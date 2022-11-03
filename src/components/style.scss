@@ -1,0 +1,160 @@
+h1, h5, h4
+{
+    color: white;
+    font-family: Segoe UI Light;
+    margin-bottom: 0px;
+}
+
+p{
+    color: lightgray;
+    font-size: 15px;
+}
+
+h1, h4{
+    font-family: Segoe UI;
+}
+
+.sender-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+
+.sender-item .ant-input{
+    background: content-box;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI Light';
+}
+
+.sender-item .ant-input[disabled]{
+    background: content-box;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI Light';
+}
+
+.ant-btn {
+    background: content-box;
+    color: white;
+    margin: 0.2rem;
+}
+
+.ant-btn:hover{
+    background: content-box;
+    color: white;
+}
+
+.ant-btn:focus{
+    background: content-box;
+    color: white;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0% 40%;
+}
+
+.multi-send{
+    width: 40%;
+
+}
+
+.header{
+    margin: 1rem 0rem 3rem  ;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 10%;
+}
+
+.receipients {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.receipient-card {
+    border: 1px solid rgba($color: pink, $alpha: 0.4);
+    background-color: rgba($color: #ffffff, $alpha: 0.1);
+    color: pink;
+    border-radius: 5px;
+    padding: 0.3rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0.3rem;
+}
+
+
+
+.ETH {
+    color: pink;
+    border: 1px solid rgba($color: pink, $alpha: 0.4);
+}
+
+.ETH:hover {
+    color: pink;
+    border: 1px solid rgba($color: pink, $alpha: 0.7);
+    transition-duration: 0.2s;
+}
+
+.ERC20 {
+    color: lightblue;
+    border: 1px solid rgba($color: lightblue, $alpha: 0.4);
+}
+
+.ERC20:hover {
+    color: lightblue;
+    border: 1px solid rgba($color: lightblue, $alpha: 0.7);
+    transition-duration: 0.2s;
+}
+
+.ant-modal-content * {
+    background-color: #282c34;
+    color: white;
+}
+
+.ant-modal-header {
+    border-bottom: 1px solid rgba($color: #ffffff, $alpha: 0.1);
+}
+
+.ant-modal-footer {
+    border-top: 1px solid rgba($color: #ffffff, $alpha: 0.1);
+}
+
+.receipient-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+
+.receipient-item span {
+    font-size: 15px;
+}
+
+.receipient-item .ant-input{
+    background: content-box;
+    color: white;
+    font-size: 15px;
+    font-family: 'Segoe UI Light';
+    width: inherit;
+}
+
+.receipient-item .ant-input-number{
+    background: content-box;
+    color: white;
+    font-size: 15px;
+    font-family: 'Segoe UI Light';
+    width: 50pt;
+}
